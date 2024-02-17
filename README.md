@@ -2,7 +2,7 @@
 
 17/02/24
 
-#Control structures If, Elif, Else
+Control structures If, Elif, Else
 if < 10 or 2 > 1:
 print ("ok")
 else:
@@ -13,17 +13,17 @@ else:
 #2) Usando una lista de números, imprimir si es par o impar
 #3) Imprimir sólo los números donde su cubo sea mayor a 5000
 
-# 1 Calcular el cuadrado de cada número en la lista
+1 Calcular el cuadrado de cada número en la lista
 cuadrados = [num ** 2 for num in nums]
 print("Cuadrados de los números:", cuadrados)
 
-# 2 Imprimir si cada número en la lista es par o impar
+2 Imprimir si cada número en la lista es par o impar
 for num in nums:
     if num % 2 == 0:
         print(f"{num} es par")
     else:
         print(f"{num} es impar")
 
-# 3 Imprimir los números cuyo cubo sea mayor a 5000
+3 Imprimir los números cuyo cubo sea mayor a 5000
 cubos_mayor_5000 = [num for num in nums if num**3 > 5000]
 print("Números cuyo cubo es mayor a 5000:", cubos_mayor_5000)
